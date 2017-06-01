@@ -18,7 +18,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func pressIt(_ sender: Any) {
-        self.theLabel.text = "Answer is ...\(Int(text1.text!)! + Int(text2.text!)!)"
+        let addition = true
+        if addition {
+            self.theLabel.text = "Answer is ...\(Int(text1.text!)! + Int(text2.text!)!)"
+        } else {
+            self.theLabel.text = "Answer is ...\(Int(text1.text!)! + Int(text2.text!)!)"
+        }
+
     }
     
     override func viewDidLoad() {

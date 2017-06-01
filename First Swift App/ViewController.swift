@@ -3,7 +3,7 @@
 //  First Swift App
 //
 //  Created by sahaj makharia on 31/05/17.
-//  Copyright © 2017 Sahaj Makharia. All rights reserved.
+//  Copyright © 2017 Sahaj Makharia. All rights reserved...
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         self.theLabel.text = "Thanks Mom"
     
         tapCount = tapCount + 1
-        if tapCount >= 10 {
+        if tapCount >= 11 {
             theLabel.text = "You are going at it, take it easy"
         }
     }
